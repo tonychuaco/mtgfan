@@ -1,3 +1,3 @@
-# Game Lab FX Project
+# MTG Fan Page
 
-Built with React. Designed and developed by Anthony Djoewanda.
+Passion Project for CUNY TechWorks at Queensborough CC, Software Development Program. Built with React. Designed and developed by Anthony Djoewanda.

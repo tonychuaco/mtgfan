@@ -1,0 +1,40 @@
+.Media-article {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.Media-article-white {
+  background-image: url('./../images/white.jpg');
+}
+
+.Media-article-blue {
+  background-image: url('./../images/blue.jpg');
+}
+
+.Media-article-black {
+  background-image: url('./../images/black.jpg');
+}
+
+.Media-article-red {
+  background-image: url('./../images/red.jpg');
+}
+
+.Media-article-green {
+  background-image: url('./../images/green.jpg');
+}
+
+.Media-article-card {
+  background-color: rgba(25,15,0,.15);
+}
+
+.Media-article-card:hover {
+  background-color: rgba(20, 19, 17, 0.65);
+}
+
+@media (min-width: 992px) {
+  .Media-article {
+    height: 80vh;
+  }
+}
+

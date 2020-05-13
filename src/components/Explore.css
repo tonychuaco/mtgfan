@@ -1,0 +1,16 @@
+.Explore-left-frame,
+.Explore-right-frame {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .9;
+}
+
+.Explore-left-frame {
+  background-image: url('./../images/background-3.jpg');
+}
+
+.Explore-right-frame {
+  background-image: url('./../images/background-2.jpg');
+}
+

@@ -1,0 +1,26 @@
+.Features-article {
+  height: 65vh;  
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.Features-article-mighty-creatures {
+  background-image: url('./../images/mighty-creatures.jpg');
+}
+
+.Features-article-devastating-spells {
+  background-image: url('./../images/devastating-spells.jpg');
+}
+
+.Features-article-compelling-story {
+  background-image: url('./../images/compelling-story.jpg');
+}
+
+.Features-article-card-body {
+  background-color: rgba(25,15,0,.15);
+}
+
+.Features-article-card-body:hover {
+  background-color: rgba(20, 19, 17, 0.65);
+}

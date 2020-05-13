@@ -1,0 +1,15 @@
+.Header {
+  background-image: url('./../images/background-5.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.Header-div {
+  background-color: rgba(25,15,0,.15);
+}
+
+/* .Header-div:hover {
+  background-color: rgba(20, 19, 17, 0.65);
+} */
+

@@ -1,0 +1,21 @@
+.ExploreCards-item-content {
+  background-image: url('./../images/background-1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.ExploreCards-div {
+  background-color: rgba(99, 51, 37, 0.479);
+}
+
+.ExploreCards-div:hover {
+  background-color: rgba(20, 19, 17, 0.65);
+}
+
+.ExploreCards-div-image {
+  height: 300px;
+}
+
+/* .ExploreCards-image {
+  max-height: 310px;
+} */

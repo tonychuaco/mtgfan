@@ -1,0 +1,32 @@
+.AboutMtg-article {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.AboutMtg-magic-set-guilds-of-ravnica { background-image: url('./../images/magic-set-Guilds-of-Ravnica.jpg'); }
+.AboutMtg-magic-set-core-set-2019 { background-image: url('./../images/magic-set-Core-Set-2019.jpg');}
+.AboutMtg-magic-set-dominaria { background-image: url('./../images/magic-set-Dominaria.jpg');}
+.AboutMtg-magic-set-rivals-of-ixalan { background-image: url('./../images/magic-set-Rivals-of-Ixalan.jpg');}
+.AboutMtg-magic-set-ixalan { background-image: url('./../images/magic-set-Ixalan.jpg');}
+.AboutMtg-magic-set-hour-of-devastation { background-image: url('./../images/magic-set-Hour-of-Devastation.jpg');}
+.AboutMtg-magic-set-amonkhet { background-image: url('./../images/magic-set-Amonkhet.jpg');}
+.AboutMtg-magic-set-aether-revolt { background-image: url('./../images/magic-set-Aether-Revolt.jpg');}
+.AboutMtg-magic-set-kaladesh { background-image: url('./../images/magic-set-Kaladesh.jpg');}
+.AboutMtg-magic-set-eldritch-moon { background-image: url('./../images/magic-set-Eldritch-Moon.jpg');}
+.AboutMtg-magic-set-shadows-over-innistrad { background-image: url('./../images/magic-set-Shadows-over-Innistrad.jpg');}
+.AboutMtg-magic-set-oath-of-the-gatewatch { background-image: url('./../images/magic-set-Oath-of-the-Gatewatch.jpg');}
+
+.AboutMtg-magic-set-battle-for-zendikar { background-image: url('./../images/battle-for-zendikar.jpg');}
+.AboutMtg-magic-set-magic-origins { background-image: url('./../images/magic-origins.jpg');}
+.AboutMtg-magic-set-fate-reforged { background-image: url('./../images/fate-reforged.jpg');}
+.AboutMtg-magic-set-khans-of-tarkir { background-image: url('./../images/khans-of-tarkir.jpg');}
+.AboutMtg-magic-set-magic-2015-core-set { background-image: url('./../images/magic-2015-core-set.jpg');}
+.AboutMtg-magic-set-journey-into-nyx { background-image: url('./../images/journey-into-nyx.jpg');}
+.AboutMtg-magic-set-born-of-the-gods { background-image: url('./../images/born-of-the-gods.jpg');}
+.AboutMtg-magic-set-theros { background-image: url('./../images/theros.jpg');}
+
+
+.AboutMtg-hover:hover {
+  background-color: rgba(20, 19, 17, 0.65);
+}
