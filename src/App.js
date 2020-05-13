@@ -6,6 +6,8 @@ import Main from "./components/Main";
 import Footer from './components/Footer';
 
 import FeaturesModal from './components/FeaturesModal';
+
+// local data for testing
 import data from './data/data.json';
 
 import img1 from './images/magic-set-Guilds-of-Ravnica.jpg';
@@ -42,7 +44,11 @@ import img28 from './images/black.jpg';
 export default class App extends Component {
 
   state = {
+
+    // local data for testing
+    // cards: data.cards,
     cards: data.cards,
+
     modal: null,
     modalTitle: null,
     images: [
@@ -52,17 +58,17 @@ export default class App extends Component {
     ],
   };
 
-  // componentDidMount() {
+  componentDidMount() {
 
-  //   fetch('https://api.magicthegathering.io/v1/cards?pageSize=10&random=true&language=english')
-  //     .then(res => {return res.json();})
-  //     .then(data => {
-  //       this.setState({
-  //         cards: data.cards,
-  //       });
-  //     });
+    fetch('https://api.magicthegathering.io/v1/cards?pageSize=10&random=true&language=english')
+      .then(res => {return res.json();})
+      .then(data => {
+        this.setState({
+          cards: data.cards,
+        });
+      });
 
-  // }
+  }
 
   fxSwap = (index, title) => {
     this.setState({
