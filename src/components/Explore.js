@@ -6,7 +6,7 @@ import './Explore.css';
 
 const Explore = ({ cards }) => (
 
-  <section id="gallery" className="Explore jumbotron jumbotron-fluid bg-transparent pb-0" data-aos="fade-left" data-aos-easing data-aos-duration="1000"  data-aos-once="true">
+  <section id="gallery" className="Explore jumbotron jumbotron-fluid bg-transparent pb-0">
     <div className="d-flex justify-content-center">
       <div className="Explore-left-frame  rounded-right d-none d-lg-block col-lg-2 shadow"></div>
       <div id="slideshow-gallery" className="carousel slide col-12 col-lg-8 " data-ride="false" data-interval="false">
